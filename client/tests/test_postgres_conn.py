@@ -13,8 +13,8 @@ def mock_config_file(tmp_path):
     postgres:
         host: localhost
         port: 5432
-        user: postgres
-        password: password
+        user: test_user
+        password: test_pass
         database: test_db
     """
     config_file = tmp_path / "config.yaml"
