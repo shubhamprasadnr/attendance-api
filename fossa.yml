@@ -1,16 +1,28 @@
 version: 3
 
+# Project configuration
 project:
-  name: my-attendanceapi
-  policy: Website/Hosted Service                
+  # Suggested name - FOSSA will use this or detect from VCS
+  name: "my-attendance-api"
+  # You can specify a specific branch if needed
+  branch: "main"
 
-ci:
-  failOn:
-    - policy
-    - error
-    - vulnerabilities
+# Analysis settings
+analyze:
+  # Enable all analysis types
+  dependencies: true
+  licenses: true
+  vulnerabilities: true
+  issues: true
 
-analyzers:
-  - type: dependency
-    languages:
-      - python
+# Policy configuration
+policy:
+  # Specify a policy template to use
+  template: "Default Policy Template"  # Replace with your specific template name if needed
+
+# Output settings
+output:
+  # Show all results in the output
+  show-all: true
+  # Fail the build if issues are found (optional)
+  fail-on-issues: false  # Set to true if you want CI to fail when issues are found
