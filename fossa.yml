@@ -2,7 +2,7 @@ version: 3
 
 project:
   name: my-attendance
-  policy: Standard Bundle Distribution   # OR: Single-Binary Distribution / Website/Hosted Service
+  policy: Website/Hosted Service                
 
 ci:
   failOn:
