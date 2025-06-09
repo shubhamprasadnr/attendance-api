@@ -1,7 +1,7 @@
 version: 3
 
 project:
-  name: my-project-name
+  name: my-attendance
   policy: Standard Bundle Distribution   # OR: Single-Binary Distribution / Website/Hosted Service
 
 ci:
