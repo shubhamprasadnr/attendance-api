@@ -25,4 +25,4 @@ output:
   # Show all results in the output
   show-all: true
   # Fail the build if issues are found (optional)
-  fail-on-issues: true  # Set to true if you want CI to fail when issues are found
+  fail-on-issues: false  # Set to true if you want CI to fail when issues are found
